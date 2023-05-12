@@ -41,3 +41,128 @@
     left: 3rem;
 
 }
+
+.kits{
+    position: absolute;
+    width: 547px;
+    height: 15px;
+    left: 240px;
+    top: 25px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.5px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #767574;
+
+}
+
+.bovinos{
+    position: absolute;
+    width: 547px;
+    height: 15px;
+    left: 300px;
+    top: 25px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.5px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #767574;
+
+}
+.hamburgeres{
+    position: absolute;
+    width: 547px;
+    height: 15px;
+    left: 370px;
+    top: 25px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.5px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #767574;
+}
+.wagyu{
+    position: absolute;
+    width: 547px;
+    height: 15px;
+    left: 480px;
+    top: 25px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.5px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #767574;
+}
+.dia-a-dia{
+    position: absolute;
+    width: 547px;
+    height: 15px;
+    left: 545px;
+    top: 25px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.5px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #767574;
+}
+.superbox{
+    position: absolute;
+    width: 547px;
+    height: 15px;
+    left: 630px;
+    top: 25px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.5px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #767574;
+}
+.outros{
+    position: absolute;
+    width: 547px;
+    height: 15px;
+    left: 710px;
+    top: 25px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.5px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #eeeeee;
+
+}
+.superofertas{
+    position: absolute;
+    width: 547px;
+    height: 15px;
+    left: 780px;
+    top: 25px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.5px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #eeeeee;
+}
