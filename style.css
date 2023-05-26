@@ -17,16 +17,25 @@
     font-size: large;
     }
 
-    header{
-        width: 100vw;
-        height: 7.5vh;
-  background-color: #242323;
-  display: flex; align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  
-    }
+    header {
+         width: 100vw;
+    height: 7.5vh;
+        background-color: #242323;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+      
+      @media (max-width: 768px) {
+        header {
+          flex-direction: column;
+          height: auto;
+          justify-content: center;
+          align-items: center;
+        }
+      }
 
 .logo{
     position: absolute;
@@ -34,11 +43,11 @@
 }
 
 .logao{
-    width: 12.75rem;
+    width: 16rem;
     height: 12.56rem;
     position: absolute;
     top: -2.10rem;
-    left: 2.80rem;
+    left: 0.30rem;
 
 }
 
@@ -51,7 +60,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 0.78rem;
+    font-size: 1rem;
     line-height: 0.94rem;
     letter-spacing: 0.02em;
     color: #767574;
@@ -66,7 +75,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 0.78rem;
+    font-size: 1rem;
     line-height: 0.94rem;
     letter-spacing: 0.02em;
     color: #767574;
@@ -76,12 +85,12 @@
     position: absolute;
     width: 34.19rem;
     height: 0.94rem;
-    left: 23.13rem;
+    left: 24.13rem;
     top: 1.56rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 0.78rem;
+    font-size: 1rem;
     line-height: 0.94rem;
     letter-spacing: 0.02em;
     color: #767574;
@@ -91,12 +100,12 @@
     position: absolute;
     width: 34.19rem;
     height: 0.94rem;
-    left: 30rem;
+    left: 32rem;
     top: 1.56rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 0.78rem;
+    font-size: 1rem;
     line-height: 0.94rem;
     letter-spacing: 0.02em;
     color: #767574;
@@ -106,12 +115,12 @@
     position: absolute;
     width: 34.19rem;
     height: 0.94rem;
-    left: 33.88rem;
+    left: 36.4rem;
     top: 1.56rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 0.78rem;
+    font-size: 1rem;
     line-height: 0.94rem;
     letter-spacing: 0.02em;
     color: #767574;
@@ -121,12 +130,12 @@
     position: absolute;
     width: 34.19rem;
     height: 0.94rem;
-    left: 39.38rem;
+    left: 42.1rem;
     top: 1.56rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 0.78rem;
+    font-size: 1rem;
     line-height: 0.94rem;
     letter-spacing: 0.02em;
     color: #eeeeee;
@@ -136,12 +145,12 @@
     position: absolute;
     width: 34.19rem;
     height: 0.94rem;
-    left: 44.38rem;
+    left: 48.38rem;
     top: 1.56rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 0.78rem;
+    font-size: 1rem;
     line-height: 0.94rem;
     letter-spacing: 0.02em;
     color: #eeeeee;
@@ -151,12 +160,12 @@
     position: absolute;
     width: 34.19rem;
     height: 0.94rem;
-    left: 49.38rem;
+    left: 53.38rem;
     top: 1.56rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 0.78rem;
+    font-size: 1rem;
     line-height: 0.94rem;
     letter-spacing: 0.02rem;
     color: #C51615;
@@ -166,8 +175,8 @@
 position: absolute;
 width: 15.375rem;
 height: 1.9375rem;
-left: 56.1875rem;
-top: 1.0625rem;
+left: 109.8125rem;
+top: 1.4625rem;
 
 background: #313031;
 
@@ -176,8 +185,8 @@ background: #313031;
 position: absolute;
 width: 0.875rem;
 height: 1.0625rem;
-left: 69.5rem;
-top: 1.5rem;
+left: 123.125rem;
+top: 1.9000rem;
 
 }
 
@@ -185,12 +194,12 @@ top: 1.5rem;
     position: absolute;
     width: 110px;
     height: 26px;
-    left: 1153px;
-    top: 19px;
+    left: 2050px;
+    top: 26px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 12.5px;
+    font-size: 16px;
     line-height: 15px;
     text-align: center;
     color: #898889;
@@ -203,10 +212,10 @@ top: 1.5rem;
 .insta{
 
 position: absolute;
-width: 32px;
-height: 21px;
-left: 1266px;
-top: 22px;
+width: 37px;
+height: 26px;
+left: 2176px;
+top: 28px;
 
 }  
 
@@ -214,19 +223,19 @@ top: 22px;
     /* whatsapp */
 
 position: absolute;
-width: 20px;
-height: 19px;
-left: 1310px;
-top: 23px;
+width: 25px;
+height: 24px;
+left: 2220px;
+top: 28px;
 
 }
 .buy{
     /* Retangulo compra */
 
 position: absolute;
-width: 46.5px;
-height: 107.24px;
-left: 1339.5px;
+width: 51.5px;
+height: 147.24px;
+left: 2275.5px;
 top: -17px;
 
 }
@@ -236,8 +245,9 @@ top: -17px;
 position: absolute;
 width: 20px;
 height: 21px;
-left: 1352px;
-top: 22px;
+left: 2290px;
+top: 32px;
+
 
 }
   
