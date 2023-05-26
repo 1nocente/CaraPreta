@@ -38,131 +38,206 @@
     height: 12.56rem;
     position: absolute;
     top: -2.10rem;
-    left: 3rem;
+    left: 2.80rem;
 
 }
 
-.kits{
+.kits {
     position: absolute;
-    width: 547px;
-    height: 15px;
-    left: 240px;
-    top: 25px;
-    
+    width: 34.19rem;
+    height: 0.94rem;
+    left: 15rem;
+    top: 1.56rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 12.5px;
-    line-height: 15px;
+    font-size: 0.78rem;
+    line-height: 0.94rem;
     letter-spacing: 0.02em;
     color: #767574;
-
-}
-
-.bovinos{
-    position: absolute;
-    width: 547px;
-    height: 15px;
-    left: 300px;
-    top: 25px;
+    }
     
+    .bovinos {
+    position: absolute;
+    width: 34.19rem;
+    height: 0.94rem;
+    left: 18.75rem;
+    top: 1.56rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 12.5px;
-    line-height: 15px;
+    font-size: 0.78rem;
+    line-height: 0.94rem;
     letter-spacing: 0.02em;
     color: #767574;
-
-}
-.hamburgeres{
-    position: absolute;
-    width: 547px;
-    height: 15px;
-    left: 370px;
-    top: 25px;
+    }
     
+    .hamburgeres {
+    position: absolute;
+    width: 34.19rem;
+    height: 0.94rem;
+    left: 23.13rem;
+    top: 1.56rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 12.5px;
-    line-height: 15px;
+    font-size: 0.78rem;
+    line-height: 0.94rem;
     letter-spacing: 0.02em;
     color: #767574;
-}
-.wagyu{
-    position: absolute;
-    width: 547px;
-    height: 15px;
-    left: 480px;
-    top: 25px;
+    }
     
+    .wagyu {
+    position: absolute;
+    width: 34.19rem;
+    height: 0.94rem;
+    left: 30rem;
+    top: 1.56rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 12.5px;
-    line-height: 15px;
+    font-size: 0.78rem;
+    line-height: 0.94rem;
     letter-spacing: 0.02em;
     color: #767574;
-}
-.dia-a-dia{
-    position: absolute;
-    width: 547px;
-    height: 15px;
-    left: 545px;
-    top: 25px;
+    }
     
+    .dia-a-dia {
+    position: absolute;
+    width: 34.19rem;
+    height: 0.94rem;
+    left: 33.88rem;
+    top: 1.56rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 12.5px;
-    line-height: 15px;
+    font-size: 0.78rem;
+    line-height: 0.94rem;
     letter-spacing: 0.02em;
     color: #767574;
-}
-.superbox{
-    position: absolute;
-    width: 547px;
-    height: 15px;
-    left: 630px;
-    top: 25px;
+    }
     
+    .superbox {
+    position: absolute;
+    width: 34.19rem;
+    height: 0.94rem;
+    left: 39.38rem;
+    top: 1.56rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 12.5px;
-    line-height: 15px;
-    letter-spacing: 0.02em;
-    color: #767574;
-}
-.outros{
-    position: absolute;
-    width: 547px;
-    height: 15px;
-    left: 710px;
-    top: 25px;
-    
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12.5px;
-    line-height: 15px;
+    font-size: 0.78rem;
+    line-height: 0.94rem;
     letter-spacing: 0.02em;
     color: #eeeeee;
+    }
+    
+    .outros {
+    position: absolute;
+    width: 34.19rem;
+    height: 0.94rem;
+    left: 44.38rem;
+    top: 1.56rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.78rem;
+    line-height: 0.94rem;
+    letter-spacing: 0.02em;
+    color: #eeeeee;
+    }
+    
+    .superofertas {
+    position: absolute;
+    width: 34.19rem;
+    height: 0.94rem;
+    left: 49.38rem;
+    top: 1.56rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.78rem;
+    line-height: 0.94rem;
+    letter-spacing: 0.02rem;
+    color: #C51615;
+}
+.caixadebusca{
+
+position: absolute;
+width: 15.375rem;
+height: 1.9375rem;
+left: 56.1875rem;
+top: 1.0625rem;
+
+background: #313031;
 
 }
-.superofertas{
+.lupa{
+position: absolute;
+width: 0.875rem;
+height: 1.0625rem;
+left: 69.5rem;
+top: 1.5rem;
+
+}
+
+.login {
     position: absolute;
-    width: 547px;
-    height: 15px;
-    left: 780px;
-    top: 25px;
-    
+    width: 110px;
+    height: 26px;
+    left: 1153px;
+    top: 19px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 12.5px;
     line-height: 15px;
-    letter-spacing: 0.02em;
-    color: #eeeeee;
+    text-align: center;
+    color: #898889;
+  }
+  
+  .login span {
+    white-space: nowrap;
+  }
+
+.insta{
+
+position: absolute;
+width: 32px;
+height: 21px;
+left: 1266px;
+top: 22px;
+
+}  
+
+.wpp{
+    /* whatsapp */
+
+position: absolute;
+width: 20px;
+height: 19px;
+left: 1310px;
+top: 23px;
+
 }
+.buy{
+    /* Retangulo compra */
+
+position: absolute;
+width: 46.5px;
+height: 107.24px;
+left: 1339.5px;
+top: -17px;
+
+}
+
+.carrinho{
+ 
+position: absolute;
+width: 20px;
+height: 21px;
+left: 1352px;
+top: 22px;
+
+}
+  
