@@ -3,7 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+@media (max-width: 1px){
+* {
+  margin: 120;
+  padding: 0;
+  box-sizing: border-box;
+}
+}
 
 body {
   height: 100vh;
