@@ -3,7 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+@media (max-width: 1px){
+* {
+  margin: 120;
+  padding: 0;
+  box-sizing: border-box;
+}
+}
 
 body {
   height: 100vh;
@@ -58,6 +64,28 @@ header {
   top: 0;
   left: 0;
 }
+
+.maintext {
+  /* NOSSOS NOVOS KITS DE CHURRASCO PARA CURTIR COM A GALERA */
+
+  position: absolute;
+  width: 407px;
+  height: 187px;
+  left: 190px;
+  top: 367px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 32px;
+  /* or 107% */
+
+  color: #AB905A;
+
+
+}
+
 
 @media (max-width: 900px) {
   header {
@@ -813,10 +841,10 @@ header {
   .lupa-iphone {
     display: block;
     position: absolute;
-    left: 264px;
+    left: 47.8vh;
     width: 40px;
     height: 100px;
-    top: -7px;
+    top: -5vw
 
   }
 }
