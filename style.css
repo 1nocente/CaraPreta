@@ -27,6 +27,26 @@ body {
 
 
 }
+.maintext {
+  /* NOSSOS NOVOS KITS DE CHURRASCO PARA CURTIR COM A GALERA */
+
+  position: absolute;
+  width: 407px;
+  height: 187px;
+  left: 190px;
+  top: 367px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 32px;
+  /* or 107% */
+
+  color: #AB905A;
+
+
+}
 
 @media (max-width: 900px) {
   * {
