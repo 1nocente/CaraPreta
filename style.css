@@ -22,7 +22,7 @@ body {
 
 }
 
-@media (max-width: 769px) {
+@media (max-width: 900px) {
   * {
     margin: 0;
     padding: 0;
@@ -35,12 +35,13 @@ body {
     display: grid;
     grid-template-rows: 100px 1fr 50px;
     background-image: url(./img/carnefundo-ipad.png);
-    background-size: 768px 1024px;
+    background-size: 80vh;
     background-repeat: no-repeat;
     font-family: 'Righteous', cursive;
     color: #8e4106;
     font-size: large;
-    position: sticky;
+    position: fixed;
+    overflow: hidden;
   }
 
 
@@ -58,10 +59,10 @@ header {
   left: 0;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 900px) {
   header {
-    width: 768px;
-    height: 80px;
+    width: 100vh;
+    height: 11vw;
     background-color: #242323;
     display: flex;
     align-items: center;
@@ -71,29 +72,32 @@ header {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
+
   body {
-    display: grid;
+    display: flex;
     grid-template-rows: 100px 1fr 50px;
     background-image: url(./img/carnefundo-ipad.png);
-    background-size: 320px 568px;
+    background-size: 80vh;
     background-repeat: no-repeat;
     font-family: 'Righteous', cursive;
     color: #8e4106;
     font-size: large;
     position: fixed;
     overflow: hidden;
+
   }
+  
 
   header {
     width: 568px;
-    height: 80px;
+    height: 11vh;
     background-color: #242323;
     display: flex;
     align-items: center;
@@ -126,18 +130,18 @@ header {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .logao {
     width: 16rem;
     height: 12.56rem;
     position: absolute;
     top: -2.10rem;
-    left: -30px;
+    left: -3vh;
 
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .logao {
     width: 176px;
     height: 170px;
@@ -164,12 +168,12 @@ header {
   color: #767574;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .kits {
     display: block;
     position: absolute;
-    left: 180px;
-    top: 50px;
+    left: 17.4vh;
+    top: 6.5vw;
     width: 34.19rem;
     height: 1rem;
     font-family: 'Inter';
@@ -188,7 +192,7 @@ header {
   top: 1.92rem;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .kits {
     display: none;
     position: absolute;
@@ -214,7 +218,7 @@ header {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 
   .seta1 {
     display: none;
@@ -240,12 +244,12 @@ header {
   color: #767574;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .bovinos {
     display: block;
     position: absolute;
-    left: 220px;
-    top: 50px;
+    left: 21.7vh;
+    top: 6.5vw;
     width: 34.19rem;
     height: 1rem;
     font-family: 'Inter';
@@ -258,7 +262,7 @@ header {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .bovinos {
     display: none;
     position: absolute;
@@ -291,12 +295,12 @@ header {
   color: #767574;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .hamburgeres {
     display: block;
     position: absolute;
-    left: 290px;
-    top: 50px;
+    left: 28.4vh;
+    top: 6.5vw;
     width: 34.19rem;
     height: 1rem;
     font-family: 'Inter';
@@ -309,7 +313,7 @@ header {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .hamburgeres {
     display: none;
     position: absolute;
@@ -342,7 +346,7 @@ header {
   color: #767574;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .wagyu {
     display: none;
     position: absolute;
@@ -376,7 +380,7 @@ header {
   color: #767574;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .dia-a-dia {
     display: none;
     position: absolute;
@@ -400,7 +404,7 @@ header {
   top: 1.9rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .seta2 {
     display: none;
     position: absolute;
@@ -424,7 +428,7 @@ header {
   color: #eeeeee;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .superbox {
     display: none;
     position: absolute;
@@ -457,7 +461,7 @@ header {
   color: #eeeeee;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .outros {
     display: none;
     position: absolute;
@@ -490,7 +494,7 @@ header {
   color: #C51615;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .superofertas {
     display: none;
     position: absolute;
@@ -526,21 +530,22 @@ header {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .mais {
     position: absolute;
     display: block;
-    left: 120px;
-    top: -1px;
+    left: 11vh;
+    top: -.1vw;
   }
 }
 
 
 .login {
+  display: none;
   position: absolute;
-  width: 6.875rem;
-  height: 1.625rem;
-  left: 92.125rem;
+  width: 6.875vw;
+  height: 1.625vh;
+  left: 92.125vh;
   top: 1.225rem;
   font-family: 'Inter';
   font-style: normal;
@@ -559,19 +564,19 @@ header {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .account-ipad {
     display: block;
     position: absolute;
-    left: 590px;
-    width: 32px;
-    height: 32px;
-    top: 29px;
+    left: 57.6vh;
+    width: 4vw;
+    height: 3.4vh;
+    top: 3.5vw;
 
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .account-ipad {
     display: block;
     position: absolute;
@@ -586,19 +591,18 @@ header {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .account {
-    display: block;
     position: absolute;
     display: block;
-    left: 580px;
-    width: 48px;
-    height: 147.24px;
-    top: -25.64px;
+    left: 56.6vh;
+    width: 6.4vw;
+    height: 14vh;
+    top: -3vw;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .account {
     display: block;
     position: absolute;
@@ -615,12 +619,12 @@ header {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .seta5 {
     display: block;
     position: absolute;
-    left: 602px;
-    top: 75px;
+    left: 58.8vh;
+    top: 10vw;
   }
 }
 
@@ -635,14 +639,14 @@ header {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .insta {
 
     position: absolute;
     width: 2.3125rem;
     height: 1.8125rem;
-    left: 647px;
-    top: 53px;
+    left: 63.2vh;
+    top: 7vw;
     z-index: 2;
 
   }
@@ -653,11 +657,11 @@ header {
   position: absolute;
   width: 1.5625rem;
   height: 1.5rem;
-  left: 107.75rem;
-  top: 1.4rem;
+  left: 63vh;
+  top: 10vw;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .insta {
 
     position: absolute;
@@ -679,21 +683,21 @@ header {
   top: 1.4rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .wpp {
     /* whatsapp */
 
     position: absolute;
-    width: 28px;
-    height: 26px;
-    left: 651px;
-    top: 16px;
+    width: 4vw;
+    height: 2.7vh;
+    left: 63.6vh;
+    top: 1.7vw;
     z-index: 2;
 
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .wpp {
     /* whatsapp */
 
@@ -712,18 +716,18 @@ header {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .social {
     position: absolute;
     display: block;
-    left: 640px;
-    width: 48px;
+    left: 62.6vh;
+    width: 6.4vw;
     height: 147.24px;
     top: -25.64px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .social {
     position: absolute;
     display: block;
@@ -750,18 +754,18 @@ header {
 
 
 
-@media (max-width: 768px) {
+@media (max-width:  900px) {
   .buy {
     /* Retangulo compra */
 
-    left: 700px;
-    width: 48px;
-    height: 147.24px;
+    left: 68.5vh;
+    width: 6.4vw;
+    height: 15vh;
     top: -25.64px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .buy {
     /* Retangulo compra */
 
@@ -781,17 +785,17 @@ header {
   top: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .carrinho {
     position: absolute;
     width: 1.25rem;
     height: 1.3125rem;
-    left: 714px;
+    left: 69.7vh;
     top: 2rem;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .carrinho {
     position: absolute;
     width: 1.25rem;
@@ -805,7 +809,7 @@ header {
   display: none;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .lupa-iphone {
     display: block;
     position: absolute;
@@ -822,7 +826,7 @@ header {
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .hamburguer-iphone {
     display: block;
     position: absolute;
@@ -838,10 +842,10 @@ header {
   top: 4.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .seta3 {
     position: absolute;
-    left: 721px;
+    left: 70.4vh;
 
   }
 }
@@ -851,13 +855,13 @@ header {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .busca-ipad {
     display: block;
     position: absolute;
-    top: 35px;
-    width: 120px;
-    left: 450px;
+    top: 5vw;
+    width: 16vw;
+    left: 43vh;
     z-index: 2;
   }
 }
@@ -873,7 +877,7 @@ header {
 
 }
 
-@media (max-width: 769px) {
+@media (max-width: 900px) {
   .extras {
     display: none;
   }
@@ -883,9 +887,20 @@ header {
   display: none;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 900px) {
   .extras-ipad {
     display: block;
+    position: absolute;
+    width: 593px;
+    height: 68px;
+    left: 23px;
+    top: 785px;
+    border-radius: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .extras-ipad {
+    display: none;
     position: absolute;
     width: 593px;
     height: 68px;
@@ -916,7 +931,7 @@ header {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .conheca {
 
 
@@ -940,21 +955,29 @@ header {
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
+  .busca-ipad {
+    display: none;
+    position: absolute;
+    top: 5vw;
+    width: 16vw;
+    left: 43vh;
+    z-index: 2;
+  }
   .conheca {
 
 
     position: absolute;
-    width: 120px;
-    height: 100px;
+    width: 44vw;
+    height: 10vh;
     left: 27px;
-    top: 270px;
+    top: 90vw;
 
     font-family: 'Great Vibes';
     font-style: normal;
     font-weight: 400;
-    font-size: 200px;
-    line-height: 32px;
+    font-size: 80vh;
+    line-height: 5vh;
 
 
     color: #FFFFFF;
@@ -964,28 +987,7 @@ header {
 
 }
 
-.maintext {
-  /* NOSSOS NOVOS KITS DE CHURRASCO PARA CURTIR COM A GALERA */
-
-  position: absolute;
-  width: 407px;
-  height: 187px;
-  left: 187px;
-  top: 363px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 30px;
-  line-height: 32px;
-  /* or 107% */
-
-  color: #AB905A;
-
-
-}
-
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .maintext {
     /* NOSSOS NOVOS KITS DE CHURRASCO PARA CURTIR COM A GALERA */
 
@@ -1007,21 +1009,21 @@ header {
 
   }
 
-  @media (max-width: 320px) {
+  @media (max-width: 600px) {
     .maintext {
       /* NOSSOS NOVOS KITS DE CHURRASCO PARA CURTIR COM A GALERA */
 
       position: absolute;
-      width: 207px;
-      height: 127px;
-      left: 27px;
-      top: 298px;
+      width: 65vw;
+      height: 30vh;
+      left: 5vh;
+      top: 86.5vw;
 
 
       font-family: 'Inter';
       font-style: normal;
       font-weight: 300;
-      font-size: 30px;
+      font-size: 3vh;
       line-height: 32px;
       /* or 107% */
 
