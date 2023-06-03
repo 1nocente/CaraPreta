@@ -3,12 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-@media (max-width: 1px){
-* {
-  margin: 120;
-  padding: 0;
-  box-sizing: border-box;
-}
+
+@media (max-width: 1px) {
+  * {
+    margin: 120;
+    padding: 0;
+    box-sizing: border-box;
+  }
 }
 
 body {
@@ -109,8 +110,8 @@ header {
 
 @media (max-width: 900px) {
   header {
-    width: 100vh;
-    height: 11vw;
+    width: 100vw;
+    height: 10vh;
     background-color: #242323;
     display: flex;
     align-items: center;
@@ -137,14 +138,15 @@ header {
     font-family: 'Righteous', cursive;
     color: #8e4106;
     font-size: large;
-    position: fixed;
+    position: relative;
     overflow: hidden;
 
   }
-  
+
 
   header {
-    width: 568px;
+    display: flex;
+    width: 100vw;
     height: 11vh;
     background-color: #242323;
     display: flex;
@@ -155,9 +157,10 @@ header {
   }
 
   .logao {
+    display: absolute;
     width: 15rem;
     height: 12.56rem;
-    position: absolute;
+    position: relative;
     top: -2.10rem;
     left: -30px;
   }
@@ -165,8 +168,9 @@ header {
 }
 
 .logo {
+
   position: absolute;
-  top: 0;
+  top: 0px;
 }
 
 .logao {
@@ -193,7 +197,7 @@ header {
   .logao {
     width: 176px;
     height: 170px;
-    position: absolute;
+    position: relative;
     top: -2.10rem;
     left: -30px;
 
@@ -802,7 +806,7 @@ header {
 
 
 
-@media (max-width:  900px) {
+@media (max-width: 900px) {
   .buy {
     /* Retangulo compra */
 
@@ -859,13 +863,12 @@ header {
 
 @media (max-width: 600px) {
   .lupa-iphone {
-    display: block;
+    display: flex;
     position: absolute;
-    left: 47.8vh;
-    width: 40px;
-    height: 100px;
-    top: -5vw
-
+    left: 264px;
+    width: 14vw;
+    height: 17vh;
+    top: -15px
   }
 }
 
@@ -946,6 +949,7 @@ header {
     border-radius: 20px;
   }
 }
+
 @media (max-width: 600px) {
   .extras-ipad {
     display: none;
@@ -1012,6 +1016,7 @@ header {
     left: 43vh;
     z-index: 2;
   }
+
   .conheca {
 
 
@@ -1061,7 +1066,7 @@ header {
     .maintext {
       /* NOSSOS NOVOS KITS DE CHURRASCO PARA CURTIR COM A GALERA */
 
-      position: absolute;
+      position:-ms-page;
       width: 65vw;
       height: 30vh;
       left: 5vh;
