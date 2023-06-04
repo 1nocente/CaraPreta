@@ -51,8 +51,8 @@ body {
 
 @media (max-width: 900px) {
   * {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 auto;
     box-sizing: border-box;
   }
 
